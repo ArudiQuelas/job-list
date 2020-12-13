@@ -1,0 +1,32 @@
+$urgent-bg: red;
+$regular-bg: yellow;
+$trivial-bg: aqua;
+
+.urgent {
+    background-color: $urgent-bg;
+}
+
+.regular {
+    background-color: $regular-bg;
+}
+
+.trivial {
+    background-color: $trivial-bg;
+}
+
+.modal {
+    text-align: center;
+    width: 520px;
+    height: 230px;
+    background-color: white;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    outline: 0;
+    padding: 20px;
+}
+
+.modalButton {
+    margin-top: 15px !important;
+}
